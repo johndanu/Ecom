@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd281084566b4fcc94c87a2320cc0a6e" Name="Diagram1">
+        <EntityTypeShape EntityType="EcommerceModel.CartTable" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.ProductTable" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.UserTable" Width="1.5" PointX="1" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="EcommerceModel.FK_CartTable_ProductTable" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_CartTable_UserTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
